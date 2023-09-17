@@ -1,9 +1,8 @@
 li {
     list-style: none;
     display: inline-flex;
-    
     margin-right: 20px;
-    
+
 }
 
 a {
@@ -12,26 +11,26 @@ a {
 
 .header {
     padding: 10px 0 0 0;
-    
-    
-    .header-inner {     
-       max-width: 850px;
-       margin: 0 auto;    
-      
 
-       .header-title {
-         text-align: right;         
-         font-size: 15px;
-         float: right;
 
-       }
+    .header-inner {
+        max-width: 850px;
+        margin: 0 auto;
+
+
+        .header-title {
+            text-align: right;
+            font-size: 15px;
+            float: right;
+
+        }
 
 
     }
 
 
 }
- 
+
 
 
 body {
@@ -43,7 +42,7 @@ img.bicycle {
     margin: auto;
     height: 600px;
     object-fit: cover;
-    
+
 }
 
 
@@ -75,8 +74,7 @@ figure.image {
     text-align: right;
 }
 
-.image 
- .profile-image {
+.image .profile-image {
     width: 15%;
     border-radius: 50%;
 }
@@ -104,8 +102,8 @@ h1 {
     margin-top: -20px;
 }
 
-.content-box {    
-    display: flex;    
+.content-box {
+    display: flex;
     justify-content: center;
     gap: 1em;
 }
