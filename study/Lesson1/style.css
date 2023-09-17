@@ -1,7 +1,6 @@
 li {
   list-style: none;
-  display: inline;
-  padding: 5px;
+  display: inline-flex;
   margin-right: 20px;
 }
 
@@ -10,23 +9,16 @@ a {
 }
 
 .header {
-  padding: 5px 0 10px 15px;
+  padding: 10px 0 0 0;
 }
-
 .header .header-inner {
-  position: relative;
   max-width: 850px;
   margin: 0 auto;
 }
-
-.header .header-inner .header-logo {
-  position: absolute;
-  transform: translateY(-50%);
-}
-
 .header .header-inner .header-title {
   text-align: right;
   font-size: 15px;
+  float: right;
 }
 
 body {
@@ -38,7 +30,7 @@ img.bicycle {
   margin: auto;
   height: 600px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 main {
@@ -97,6 +89,4 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 1em;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
