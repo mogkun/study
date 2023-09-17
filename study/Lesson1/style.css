@@ -1,0 +1,102 @@
+li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+a {
+  color: black;
+}
+
+.header {
+  padding: 5px 0 10px 15px;
+}
+
+.header .header-inner {
+  position: relative;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.header .header-inner .header-logo {
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.header .header-inner .header-title {
+  text-align: right;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+}
+
+img.bicycle {
+  width: 100%;
+  margin: auto;
+  height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+figure.image {
+  display: inline-block;
+}
+
+.profile-box {
+  display: flex;
+  margin-left: 100px;
+  font-size: small;
+}
+
+.text-content {
+  justify-content: left;
+  text-align: left;
+  margin-right: 500px;
+}
+
+.image {
+  text-align: right;
+}
+
+.image .profile-image {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.title {
+  width: 960px;
+  padding: 0 4%;
+  margin: 60px auto;
+}
+
+h1 {
+  display: inline-block;
+  border-bottom: 1px solid;
+}
+
+.box {
+  font-size: small;
+}
+
+.Bicycle-image {
+  width: 250px;
+  display: flex;
+  margin-top: -20px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
